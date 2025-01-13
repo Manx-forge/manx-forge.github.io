@@ -1,32 +1,79 @@
-A collection of computer-readable digital resources for the Manx language.
+# bulma-clean-theme
 
-### About This Page
-This website serves as the central hub for the [**Manx Language Organisation**](https://github.com/Manx-Language), showcasing our ongoing efforts to support and promote the Manx language in an increasingly digital age. Here, you can explore our projects and access digital resources for Manx. Our aim is to provide developers, linguists, and researchers with the tools and resources needed to advance speech and language technologies for Manx.
+[![Gem Version](https://badge.fury.io/rb/bulma-clean-theme.svg)](https://badge.fury.io/rb/bulma-clean-theme)
+![Gem](https://img.shields.io/gem/dt/bulma-clean-theme.svg)
 
-**Manx**  
-Manx Gaelic (Gaelg) is a Celtic language spoken on the Isle of Man. Since experiencing a period of decline in recent centuries, the language has benefited from community-led revitalisation efforts and now continues to grow through educational programs, community events, and media. The data published here could not exist without the extensive documentation efforts of community members who have worked to preserve and promote the language in recent years. Their contributions form the foundation upon which this work is built. 
+This is a clean and simple Jekyll Theme built with the [Bulma](https://bulma.io/) framework, providing a modern-looking site to start with. 
 
----
+The theme uses [Alpine.js](https://github.com/alpinejs/alpine) for its interactive components, such as mobile navbar and notifications.
 
-## 🌟 What You'll Find Here
-- **Speech Transcription Data**: Resources for speech-to-text data in structured format.
-- **Translation Data**: Parallel corpora and resources for speech-to-speech, speech-to-text, and text-to-text translation tasks.
-- **Text Resources**: Collections of monolingual Manx text and other linguistic data, such as dependency labels and part-of-speech (POS) tags.
-- **Audio Resources**: Digitized audio recordings to support speech-based applications.
-- **Dictionaries and Lexicons**: Digital dictionaries and lexical resources for language technology development.
+## Contents
 
-In summary, if a Manx language resource exists in a digital format, we aim to collect it and convert it into a more computer-readable format in order to advance Manx language technologies.
-
----
-
-## 📖 Purpose of the Website
-The goal of this page is to:
-1. Provide a single location for accessing all Manx language resources.
-2. Promote awareness and engagement with the Manx language.
-3. Encourage collaboration and contributions from the community.
-
----
-
-## 🔗 Explore
+* [Installation](#installation)
+* [Documentation](#documentation)
+* [Upgrading to v1](#upgrading-to-v1)
+* [Contributing](#contributing)
+* [Development](#development)
+* [Licence](#licence)
 
 
+## Installation
+
+Add this line to your Jekyll site's `Gemfile`:
+
+```ruby
+gem "bulma-clean-theme"
+```
+
+And add this line to your Jekyll site's `_config.yml`:
+
+```yaml
+theme: bulma-clean-theme
+```
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install bulma-clean-theme
+
+### GitHub pages
+
+### v1.0
+
+To deploy to GitHub pages using v1.x you will need to use GitHub Actions. Please see the [upgrade guide](https://www.csrhymes.com/bulma-clean-theme/docs/getting-started/upgrading-to-v1/) for more information.
+
+### v0.x
+
+If you are deploying to GitHub pages using their default build process, then you can install v0.x of the [GitHub Pages gem](https://github.com/github/pages-gem) and use `remote_theme` instead of `theme` in your `_config.yml`. 
+
+**Note that the GitHub Pages gem requires Jekyll version 3.9 and version 0.x of Bulma Clean Theme**
+
+```yaml
+# With GitHub Pages Gem
+remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
+```
+
+## Documentation
+
+Check out the demo site for the [Documentation](https://www.csrhymes.com/bulma-clean-theme/docs/)
+
+## Upgrading to v1
+
+There are several breaking changes for v1. Please read the [upgrade guide](https://www.csrhymes.com/bulma-clean-theme/docs/getting-started/upgrading-to-v1/) for more information.
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/chrisrhymes/bulma-clean-theme. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+## Development
+
+To set up your environment to develop this theme, run `bundle install`.
+
+Your theme is set up just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+
+## License
+
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
