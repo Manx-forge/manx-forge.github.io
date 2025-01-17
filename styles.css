@@ -9,15 +9,15 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #f5f9f5;
-    color: #333;
+    background-color: #e8f5e9; /* Light green background */
+    color: #2e7d32; /* Dark green text */
     padding: 0;
     margin: 0;
 }
 
 /* Header Section */
 header {
-    background-color: #2e7d32;
+    background-color: #2e7d32; /* Dark green */
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -34,7 +34,7 @@ header p {
 
 /* Navigation Bar */
 nav {
-    background-color: #43a047;
+    background-color: #43a047; /* Medium green */
 }
 
 .nav-list {
@@ -45,6 +45,7 @@ nav {
 }
 
 .nav-list li {
+    position: relative; /* For dropdown positioning */
     margin: 0 15px;
 }
 
@@ -57,15 +58,54 @@ nav {
 }
 
 .nav-list a:hover {
-    background-color: #66bb6a;
+    background-color: #66bb6a; /* Lighter green */
     border-radius: 5px;
 }
 
-/* Section Styling */
+/* Dropdown Menu */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #43a047; /* Same as nav background */
+    list-style: none;
+    padding: 10px 0;
+    min-width: 200px;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+.dropdown-content li {
+    margin: 0;
+}
+
+.dropdown-content li a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-content li a:hover {
+    background-color: #66bb6a;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Main Content */
 main {
     padding: 20px;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 20px auto;
+    background: white; /* White background for main content */
+    border: 1px solid #c8e6c9; /* Light green border */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 section {
@@ -75,12 +115,13 @@ section {
 section h2 {
     font-size: 2rem;
     margin-bottom: 15px;
-    color: #2e7d32;
+    color: #2e7d32; /* Dark green */
 }
 
 section p,
 section ul {
     margin-bottom: 15px;
+    color: #4caf50; /* Medium green for text */
 }
 
 ul {
@@ -95,7 +136,7 @@ ul li {
 
 /* Footer Section */
 footer {
-    background-color: #2e7d32;
+    background-color: #2e7d32; /* Dark green */
     color: white;
     text-align: center;
     padding: 10px 0;
