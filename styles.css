@@ -1,48 +1,164 @@
-/* Navigation Menu Styling */
-nav ul {
-    list-style: none;
-    padding: 0;
+/* General Reset */
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #495057;
+}
+
+.nav-list {
+    list-style: none;
     display: flex;
-    background-color: #333;
+    justify-content: center;
+    padding: 10px;
 }
 
-nav ul li {
+.nav-list li {
     position: relative;
+    margin: 0 15px;
 }
 
-nav ul li a {
+.nav-list a {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
-    display: block;
 }
 
-nav ul li a:hover {
-    background-color: #555;
+.nav-list a:hover {
+    background-color: #6c757d;
+    border-radius: 5px;
 }
 
-/* Dropdown Menu Styling */
+/* Dropdown Menu */
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #333;
-    min-width: 200px;
-    z-index: 1;
+    top: 100%;
+    left: 0;
+    background-color: #495057;
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding: 10px 0;
+    min-width: 200px;
 }
 
 .dropdown-content li a {
+    display: block;
     padding: 10px 15px;
     color: white;
 }
 
 .dropdown-content li a:hover {
-    background-color: #555;
+    background-color: #6c757d;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.intro h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.projects {
+    margin-top: 30px;
+}
+
+.projects h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-list li {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-list h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project-list p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #343a40;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #495057;
+}
+
+/* Footer Section */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
 }
