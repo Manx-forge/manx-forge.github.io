@@ -1,0 +1,3 @@
+[submodule "speech-transcription-eval"]
+	path = speech-transcription-eval
+	url = https://github.com/Manx-forge/speech-transcription-eval.git
