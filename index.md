@@ -1,3 +1,8 @@
+---
+layout: default
+title: The Manx Forge
+---
+
 A collection of computer-readable digital resources for the Manx language.
 
 ### About This Page
