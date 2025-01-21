@@ -2,10 +2,9 @@
 layout: default
 title: The Manx Forge
 ---
-
+### About This Website
 <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
   <div style="flex: 1; min-width: 300px;">
-    ### About This Website
     This website serves as the central hub for the [**Manx Forge**](https://github.com/Manx-forge) organisation page, showcasing our ongoing efforts to support and promote the Manx language in an increasingly digital age. Here, you can explore our projects and access digital resources for Manx. Our aim is to provide developers, linguists, and researchers with the tools and resources needed to advance speech and language technologies for Manx.
   </div>
   <div style="flex: 0 0 300px; text-align: center;">
