@@ -3,6 +3,8 @@ description: "A Collection of Tools to Help Shape the Digital Future of the Manx
 baseurl: ""  # Keep empty for root
 url: "https://github.com/Manx-forge/manx-forge.github.io"
 markdown: kramdown
-theme: null  # Disable Jekyll themes to use your custom design
+theme: null  # Disables Jekyll themes
 include:
-  - "*.md"
+  - _includes
+  - _layouts
+  - assets
