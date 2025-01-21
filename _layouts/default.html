@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <title>{{ page.title }}</title>
-  <link href="/assets/css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="/assets/css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="/assets/css/manx-language-digital-resources.webflow.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body>
-  {% include header.html %}
-  <main>
-    {{ content }}
-  </main>
-  {% include footer.html %}
-  <script src="/js/webflow.js" type="text/javascript"></script>
+    {% include header.html %}
+
+    <main>
+        {{ content }}
+    </main>
+
+    {% include footer.html %}
 </body>
 </html>
