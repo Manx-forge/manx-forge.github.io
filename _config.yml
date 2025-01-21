@@ -1,6 +1,8 @@
 title: "The Manx Forge"
 description: "A Collection of Tools to Help Shape the Digital Future of the Manx Language"
 baseurl: ""  # Keep empty for root
-url: "https://yourusername.github.io"
+url: "https://github.com/Manx-forge/manx-forge.github.io"
 markdown: kramdown
 theme: null  # Disable Jekyll themes to use your custom design
+include:
+  - "*.md"
