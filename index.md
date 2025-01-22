@@ -2,23 +2,86 @@
 layout: default
 title: The Manx Forge
 ---
-## About This Website
-This website serves as the central hub for the [**Manx Forge**](https://github.com/Manx-forge) organisation page, showcasing our ongoing efforts to support and promote the Manx language in an increasingly digital age. Here, you can explore our projects and access digital resources for Manx. Our aim is to provide developers, linguists, and researchers with the tools and resources needed to advance speech and language technologies for Manx.
 
-## The Manx Language
-Manx Gaelic (Gaelg) is a Celtic language spoken on the Isle of Man. Since experiencing a period of decline in recent centuries, the language has benefited from community-led revitalisation efforts and now continues to grow through educational programs, community events, and media. The data published here could not exist without the extensive documentation efforts of community members who have worked to preserve and promote the language in recent years. Their contributions form the foundation upon which this work is built. 
+<h2 style="margin-bottom: 10px; text-align: center;">About This Website</h2>
+<div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+  <div style="flex: 1 1 60%; min-width: 300px;">
+    <p>This website serves as the central hub for the <a href="https://github.com/Manx-forge"><strong>Manx Forge</strong></a> organisation page, showcasing our ongoing efforts to support and promote the Manx language in an increasingly digital age.</p>
+    <p>Our aim is to provide developers, linguists, and researchers with the tools and resources needed to advance speech and language technologies for Manx.</p>
+  </div>
+  <div class="about-image">
+    <img src="/assets/images/Copy-of-Manx-Forge-Logo.png" alt="Manx Forge Logo">
+  </div>
+</div>
 
-## What You'll Find Here
-- **Speech Transcription Data**: Resources for speech-to-text data (recordings and corresponding transcriptions) in structured format.
-- **Translation Data**: Parallel corpora and resources for speech-to-speech, speech-to-text, and text-to-text translation tasks.
-- **Text Resources**: Collections of monolingual Manx text and other linguistic data, such as dependency labels and part-of-speech (POS) tags.
-- **Audio Resources**: Digitised audio recordings to support speech-based applications.
-- **Dictionaries and Lexicons**: Digital dictionaries and lexical resources for language technology development.
+<h2 style="margin-bottom: 10px; text-align: center;">The Manx Language</h2>
+<p>Manx Gaelic (Gaelg) is a Celtic language spoken on the Isle of Man. Since experiencing a period of decline in recent centuries, the language has benefited from community-led revitalisation efforts and now continues to grow through educational programs, community events, and media. The data published here could not exist without the extensive documentation efforts of community members who have worked to preserve and promote the language in recent years. Their contributions form the foundation upon which this work is built.</p>
 
-In summary, if a Manx language resource exists in a digital format, we aim to collect it and convert it into a more computer-readable format in order to advance Manx language technologies.
+<h2 style="margin-bottom: 10px; text-align: center;">What You'll Find Here</h2>
+<ul>
+  <li><strong>Speech Transcription Data:</strong> Resources for speech-to-text data (recordings and corresponding transcriptions) in structured format.</li>
+  <li><strong>Translation Data:</strong> Parallel corpora and resources for speech-to-speech, speech-to-text, and text-to-text translation tasks.</li>
+  <li><strong>Text Resources:</strong> Collections of monolingual Manx text and other linguistic data, such as dependency labels and part-of-speech (POS) tags.</li>
+  <li><strong>Audio Resources:</strong> Digitised audio recordings to support speech-based applications.</li>
+  <li><strong>Dictionaries and Lexicons:</strong> Digital dictionaries and lexical resources for language technology development.</li>
+</ul>
 
-## Purpose of the Website
-The goal of this page is to:
-1. Provide a single location for accessing all Manx language resources.
-2. Promote awareness and engagement with the Manx language.
-3. Encourage collaboration and contributions from the community.
+<p>In summary, if a Manx language resource exists in a digital format, we aim to collect it and convert it into a more computer-readable format in order to advance Manx language technologies.</p>
+
+<h2 style="margin-bottom: 10px; text-align: center;">Our Purpose</h2>
+<div class="purpose-images">
+  <img src="/assets/images/7.png" alt="Purpose Image 1">
+  <img src="/assets/images/8.png" alt="Purpose Image 2">
+  <img src="/assets/images/9.png" alt="Purpose Image 3">
+</div>
+
+<style>
+.about-image {
+    flex: 0 1 25%;
+    text-align: right;
+    padding-left: 10px;
+}
+
+.about-image img {
+    max-width: 300px;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.purpose-images {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.purpose-images img {
+    max-width: 300px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+    .about-image {
+        flex: 1 1 100%;
+        text-align: center;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .about-image img {
+        margin-left: 0;
+    }
+
+    .purpose-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .purpose-images img {
+        max-width: 80%;
+    }
+}
+</style>
