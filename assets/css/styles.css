@@ -44,8 +44,14 @@ main {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
-    padding: 2px 0;
+    padding: 5px 0;
     letter-spacing: 0.5px;
+}
+
+.tagline-bar p {
+    max-width: 1400px;  /* Match main content width */
+    margin: 0 auto;  /* Center the text */
+    padding: 0 50px;  /* Match the main content left and right padding */
 }
 
 /* Logo Styling */
@@ -219,20 +225,6 @@ main {
 }
 
 @media (max-width: 991px) {
-    .navbar {
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 20px 30px;
-    }
-
-    .logo {
-        justify-content: flex-start;
-    }
-
-    .logo img {
-        max-height: 150px !important;
-    }
-
     .nav-links {
         display: none;
         flex-direction: column;
@@ -251,14 +243,81 @@ main {
     }
 
     .nav-links li {
-        padding: 15px 0;
-        border-bottom: 1px solid #ddd;
+        width: 100%;
+        text-align: center;
     }
 
-    .menu-toggle {
+    .nav-links li a {
+        display: inline-block;  /* Fit text width */
+        width: auto;
+        max-width: 80%;  /* Keep consistent spacing */
+        padding: 10px 20px;
+        font-size: 20px;  /* Main menu font size */
+        font-weight: bold;
+        border-radius: 8px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .nav-links li a:hover {
+        background-color: #5296a5;
+        color: #ffffff;
+    }
+
+    /* Dropdown Menu */
+    .dropdown-menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;  /* Align submenu items properly */
+        position: relative;
+        width: 100%;
+        padding: 0;
+        background-color: #f0f0f0;  /* Different background color for distinction */
+        border-top: 1px solid #ddd;
+    }
+
+    .dropdown:hover .dropdown-menu {
         display: flex;
     }
+
+    .dropdown-menu li {
+        width: 100%;
+    }
+
+    .dropdown-menu a {
+        display: inline-block;
+        width: auto;
+        max-width: 70%;  /* Slightly smaller width */
+        padding: 8px 20px;  /* Adjust padding for proper alignment */
+        font-size: 18px;  /* Smaller font size for sub-menu items */
+        color: #000000;
+        text-align: center;
+    }
+
+    .dropdown-menu a:hover {
+        background-color: #939f5c;  /* Different hover background */
+        color: #ffffff;
+    }
+
+    /* Hamburger Menu Icon */
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        right: 50px;
+        transform: translateY(-50%);
+    }
+
+    .menu-toggle .bar {
+        width: 35px;
+        height: 5px;
+        margin: 5px 0;
+        background-color: #000000;
+        border-radius: 2px;
+    }
 }
+
 
 @media (max-width: 767px) {
     .navbar {
