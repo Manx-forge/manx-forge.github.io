@@ -1,5 +1,5 @@
 [submodule "Speech Transcription Data/speech-transcription-eval"]
-	path = Speech Transcription Data/speech-transcription-eval
+	path = speech-transcription-data/speech-transcription-eval
 	url = https://github.com/Manx-forge/speech-transcription-eval
 [submodule "Dictionaries/kelly-e2m-manx-dictionary-data"]
 	path = Dictionaries/kelly-e2m-manx-dictionary-data
