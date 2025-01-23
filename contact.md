@@ -1,10 +1,16 @@
+---
+layout: default
+title: Contact Us
+permalink: /contact/
+---
+
+<h2 style="text-align: center;">Contact Us</h2>
+
 <form 
   action="https://formspree.io/f/xeoeqlwk" 
   method="POST" 
   class="contact-form"
 >
-    <h2 style="text-align: center;">Contact Us</h2>
-
     <label for="name">Your Name</label>
     <input type="text" id="name" name="name" placeholder="Enter your name" required>
 
