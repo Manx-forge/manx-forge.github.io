@@ -1,18 +1,15 @@
-[submodule "speech-transcription-eval"]
-	path = speech-transcription-eval
-	url = https://github.com/Manx-forge/speech-transcription-eval.git
-[submodule "dictionaries/cregeen-manx-dictionary-data"]
-	path = dictionaries/cregeen-manx-dictionary-data
-	url = https://github.com/Manx-forge/cregeen-manx-dictionary-data
-[submodule "dictionaries/phil-kelly-manx-dictionary-data"]
-	path = dictionaries/phil-kelly-manx-dictionary-data
-	url = https://github.com/Manx-forge/phil-kelly-manx-dictionary-data
-[submodule "dictionaries/kelly-m2e-manx-dictionary-data"]
-	path = dictionaries/kelly-m2e-manx-dictionary-data
-	url = https://github.com/Manx-forge/kelly-m2e-manx-dictionary-data
-[submodule "dictionaries/kelly-e2m-manx-dictionary-data"]
-	path = dictionaries/kelly-e2m-manx-dictionary-data
-	url = https://github.com/Manx-forge/kelly-e2m-manx-dictionary-data
 [submodule "Speech Transcription Data/speech-transcription-eval"]
 	path = Speech Transcription Data/speech-transcription-eval
 	url = https://github.com/Manx-forge/speech-transcription-eval
+[submodule "Dictionaries/kelly-e2m-manx-dictionary-data"]
+	path = Dictionaries/kelly-e2m-manx-dictionary-data
+	url = https://github.com/Manx-forge/kelly-e2m-manx-dictionary-data
+[submodule "Dictionaries/kelly-m2e-manx-dictionary-data"]
+	path = Dictionaries/kelly-m2e-manx-dictionary-data
+	url = https://github.com/Manx-forge/kelly-m2e-manx-dictionary-data
+[submodule "Dictionaries/phil-kelly-manx-dictionary-data"]
+	path = Dictionaries/phil-kelly-manx-dictionary-data
+	url = https://github.com/Manx-forge/phil-kelly-manx-dictionary-data
+[submodule "Dictionaries/cregeen-manx-dictionary-data"]
+	path = Dictionaries/cregeen-manx-dictionary-data
+	url = https://github.com/Manx-forge/cregeen-manx-dictionary-data
