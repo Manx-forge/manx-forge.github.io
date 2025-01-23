@@ -1,18 +1,23 @@
 /* General Layout */
-body {
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
     font-family: Tahoma, Verdana, Segoe, sans-serif;
     color: #2c2a26;
     background-color: #fbfefb;
-    margin: 0;
-    padding: 0;
     line-height: 1.6;
 }
 
 /* Container */
 .container {
+    flex: 1;  /* Allows the container to expand and push footer down */
     max-width: 1200px;
     margin: 0 auto;
     padding: 100px;
+    box-sizing: border-box;
 }
 
 main {
@@ -191,12 +196,13 @@ main {
     justify-content: center;
     align-items: center;
     height: 80px;
-    padding: 50px;
+    padding: 20px 50px;
     box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.1);
     border-top: none;
     font-size: 20px;
     font-weight: bold;
     width: 100%;
+    margin-top: auto;  /* Ensures footer stays at bottom */
 }
 
 .footer a {
@@ -354,16 +360,4 @@ main {
     .button-primary {
         width: 100%;
     }
-}
-
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-.container {
-    flex: 1; /* Ensures the content area grows and pushes the footer down */
 }
