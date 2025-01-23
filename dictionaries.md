@@ -3,7 +3,7 @@ layout: default
 title: Dictionaries
 ---
 
-# Available Dictionaries
+<h2 style="text-align: center;">Available Dictionaries</h2>
 
 - [Cregeen Manx Dictionary Data](https://github.com/Manx-forge/cregeen-manx-dictionary-data)  
   A collection of data from Cregeen's dictionary for Manx language learners and researchers.
