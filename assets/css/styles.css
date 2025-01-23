@@ -196,6 +196,7 @@ main {
     border-top: none;
     font-size: 20px;
     font-weight: bold;
+    margin-top: 50px;
 }
 
 .footer a {
@@ -206,7 +207,7 @@ main {
 }
 
 .footer a:hover {
-    color: #0050bd;
+    color: #939f5c;
 }
 
 /* Responsive Design */
