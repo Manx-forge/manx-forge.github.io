@@ -13,3 +13,6 @@
 [submodule "dictionaries/kelly-e2m-manx-dictionary-data"]
 	path = dictionaries/kelly-e2m-manx-dictionary-data
 	url = https://github.com/Manx-forge/kelly-e2m-manx-dictionary-data
+[submodule "Speech Transcription Data/speech-transcription-eval"]
+	path = Speech Transcription Data/speech-transcription-eval
+	url = https://github.com/Manx-forge/speech-transcription-eval
