@@ -1,0 +1,3 @@
+[submodule "speech-transcription-data/loayr-v1"]
+	path = speech-transcription-data/loayr-v1
+	url = https://github.com/Manx-forge/loayr-v1.git
