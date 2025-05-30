@@ -1,3 +1,19 @@
 [submodule "speech-transcription-data/loayr-v1"]
 	path = speech-transcription-data/loayr-v1
 	url = https://github.com/Manx-forge/loayr-v1.git
+
+[submodule "Dictionaries/cregeen-manx-dictionary-data"]
+    path = Dictionaries/cregeen-manx-dictionary-data
+    url = https://github.com/Manx-forge/cregeen-manx-dictionary-data.git
+
+[submodule "Dictionaries/kelly-e2m-manx-dictionary-data"]
+    path = Dictionaries/kelly-e2m-manx-dictionary-data
+    url = https://github.com/Manx-forge/kelly-e2m-manx-dictionary-data.git
+
+[submodule "Dictionaries/kelly-m2e-manx-dictionary-data"]
+    path = Dictionaries/kelly-m2e-manx-dictionary-data
+    url = https://github.com/Manx-forge/kelly-m2e-manx-dictionary-data.git
+
+[submodule "Dictionaries/phil-kelly-manx-dictionary-data"]
+    path = Dictionaries/phil-kelly-manx-dictionary-data
+    url = https://github.com/Manx-forge/phil-kelly-manx-dictionary-data.git
