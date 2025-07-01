@@ -16,3 +16,6 @@
 [submodule "speech-transcription-data/loayr"]
 	path = speech-transcription-data/loayr
 	url = https://github.com/Manx-forge/loayr.git
+[submodule "automatic_transcriptions"]
+	path = automatic_transcriptions
+	url = https://github.com/Manx-forge/automatic_transcriptions.git
