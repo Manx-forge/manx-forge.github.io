@@ -1,7 +1,3 @@
-[submodule "speech-transcription-data/loayr-v1"]
-	path = speech-transcription-data/loayr-v1
-	url = https://github.com/Manx-forge/loayr-v1.git
-
 [submodule "Dictionaries/cregeen-manx-dictionary-data"]
     path = Dictionaries/cregeen-manx-dictionary-data
     url = https://github.com/Manx-forge/cregeen-manx-dictionary-data.git
