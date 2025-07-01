@@ -13,3 +13,6 @@
 [submodule "Dictionaries/phil-kelly-manx-dictionary-data"]
     path = Dictionaries/phil-kelly-manx-dictionary-data
     url = https://github.com/Manx-forge/phil-kelly-manx-dictionary-data.git
+[submodule "speech-transcription-data/loayr"]
+	path = speech-transcription-data/loayr
+	url = https://github.com/Manx-forge/loayr.git
