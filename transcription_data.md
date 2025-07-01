@@ -3,6 +3,7 @@ layout: default
 title: Speech Transcription Data
 permalink: /transcription_data/
 ---
+<h2 style="text-align: center;">Speech Transcription Data</h2>
 
 This page brings together information and links related to **Manx speech transcription resources**, with a particular emphasis on open evaluation sets and research-ready data. The goal is to support the development of **speech technologies for Manx**, including automatic speech recognition (ASR), text-to-speech (TTS), and machine translation (MT).
 
